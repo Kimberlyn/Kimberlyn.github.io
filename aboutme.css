@@ -186,6 +186,10 @@ font-family: 'Dosis', sans-serif;
   .text {font-size: 11px}
 }
 
+.rotate {
+	transform: rotate(180deg);
+}
+
 
 
 

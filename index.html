@@ -75,7 +75,7 @@
     
  <div class="mySlides fade">
   <div class="numbertext">June-August 2018</div>
-  <img src="photos/NBCJune2018.JPG" style="width:50%">
+  <img src="photos/NBCJune2018.JPG" id="image" style="width:50%">
   <div class="text">MediaTech Intern at NBCUniversal</div>
 </div>
     
@@ -102,6 +102,9 @@
 </div>
 
 <script>
+var img=document.getElementById('image');
+	img.setAttribute('style','transform:rotate(180deg)');
+    
 var slideIndex = 0;
 showSlides();
 
